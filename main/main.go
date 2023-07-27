@@ -20,8 +20,11 @@ func main() {
 	//squares := leetcode.SortedSquares(nums)
 	//fmt.Println(squares)
 
-	nums := []int{2, 3, 1, 2, 4, 3}
-	target := 7
-	arrayLen := leetcode.MinSubArrayLen(target, nums)
-	fmt.Println(arrayLen)
+	// nums := []int{2, 3, 1, 2, 4, 3}
+	// target := 7
+	// arrayLen := leetcode.MinSubArrayLen(target, nums)
+	// fmt.Println(arrayLen)
+
+	i := leetcode.GenerateMatrix(3)
+	fmt.Println(i)
 }
