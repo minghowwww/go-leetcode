@@ -1,10 +1,5 @@
 package main
 
-import (
-	"fmt"
-	"go-leetcode/leetcode"
-)
-
 func main() {
 	//nums := []int{-1, 0, 3, 5, 9, 12}
 	//target := 9
@@ -25,6 +20,7 @@ func main() {
 	// arrayLen := leetcode.MinSubArrayLen(target, nums)
 	// fmt.Println(arrayLen)
 
-	i := leetcode.GenerateMatrix(3)
-	fmt.Println(i)
+	// i := leetcode.GenerateMatrix(3)
+	// fmt.Println(i)
+
 }
