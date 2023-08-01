@@ -1,10 +1,5 @@
 package main
 
-import (
-	"fmt"
-	"go-leetcode/leetcode"
-)
-
 func main() {
 	//nums := []int{-1, 0, 3, 5, 9, 12}
 	//target := 9
@@ -28,11 +23,12 @@ func main() {
 	// i := leetcode.GenerateMatrix(3)
 	// fmt.Println(i)
 
-	myLinkedList := leetcode.Constructor()
-	myLinkedList.AddAtHead(1)
-	myLinkedList.AddAtTail(3)
-	myLinkedList.AddAtIndex(1, 2)
-	get := myLinkedList.Get(1)
-	myLinkedList.DeleteAtIndex(2)
-	fmt.Println(get)
+	//myLinkedList := leetcode.Constructor()
+	//myLinkedList.AddAtHead(1)
+	//myLinkedList.AddAtTail(3)
+	//myLinkedList.AddAtIndex(1, 2)
+	//get := myLinkedList.Get(1)
+	//myLinkedList.DeleteAtIndex(2)
+	//fmt.Println(get)
+
 }
