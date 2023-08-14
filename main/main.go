@@ -1,5 +1,10 @@
 package main
 
+import (
+	"fmt"
+	"go-leetcode/leetcode"
+)
+
 func main() {
 	//nums := []int{-1, 0, 3, 5, 9, 12}
 	//target := 9
@@ -31,4 +36,8 @@ func main() {
 	//myLinkedList.DeleteAtIndex(2)
 	//fmt.Println(get)
 
+	num1 := []int{1, 2, 2, 1}
+	num2 := []int{2, 2}
+	intersection := leetcode.Intersection(num1, num2)
+	fmt.Println(intersection)
 }
