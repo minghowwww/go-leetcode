@@ -36,8 +36,12 @@ func main() {
 	//myLinkedList.DeleteAtIndex(2)
 	//fmt.Println(get)
 
-	num1 := []int{1, 2, 2, 1}
-	num2 := []int{2, 2}
-	intersection := leetcode.Intersection(num1, num2)
-	fmt.Println(intersection)
+	//num1 := []int{1, 2, 2, 1}
+	//num2 := []int{2, 2}
+	//intersection := leetcode.Intersection(num1, num2)
+	//fmt.Println(intersection)
+
+	nums := []int{-2, 0, 0, 2, 2}
+	sum := leetcode.ThreeSum(nums)
+	fmt.Println(sum)
 }
