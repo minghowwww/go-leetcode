@@ -41,7 +41,12 @@ func main() {
 	//intersection := leetcode.Intersection(num1, num2)
 	//fmt.Println(intersection)
 
-	nums := []int{-2, 0, 0, 2, 2}
-	sum := leetcode.ThreeSum(nums)
-	fmt.Println(sum)
+	//nums := []int{-2, 0, 0, 2, 2}
+	//sum := leetcode.ThreeSum(nums)
+	//fmt.Println(sum)
+
+	s := "abcdefg"
+	k := 8
+	str := leetcode.ReverseStr(s, k)
+	fmt.Println(str)
 }
