@@ -45,8 +45,11 @@ func main() {
 	//sum := leetcode.ThreeSum(nums)
 	//fmt.Println(sum)
 
-	s := "abcdefg"
-	k := 8
-	str := leetcode.ReverseStr(s, k)
-	fmt.Println(str)
+	//s := "abcdefg"
+	//k := 8
+	//str := leetcode.ReverseStr(s, k)
+	//fmt.Println(str)
+
+	words := leetcode.ReverseWords("i like you ")
+	fmt.Println(words)
 }
