@@ -12,6 +12,7 @@ func quickSort(arr []int, k, l, r int) {
 	i, j := l, r
 	for i < j {
 		for i < j && arr[j] >= arr[l] {
+			// 左起分界指，一定要从右侧开始比较，防止左1 是一个小指，右侧不需要移动，直接i==j了 把j 换到左侧了
 			j--
 		}
 		for i < j && arr[i] <= arr[l] {
@@ -21,9 +22,11 @@ func quickSort(arr []int, k, l, r int) {
 	}
 	arr[i], arr[l] = arr[l], arr[i]
 	if k < i {
+		// 说明 下一个小的数字 在右边
 		quickSort(arr, k, l, i-1)
 	}
 	if k > i {
+		// 左侧有大的数字 需要拿出去
 		quickSort(arr, k, i+1, r)
 	}
 }
