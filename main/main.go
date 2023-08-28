@@ -2,7 +2,7 @@ package main
 
 import (
 	"fmt"
-	"go-leetcode/leetcode"
+	"go-leetcode/leetcode/getOffer"
 )
 
 func main() {
@@ -50,6 +50,10 @@ func main() {
 	//str := leetcode.ReverseStr(s, k)
 	//fmt.Println(str)
 
-	words := leetcode.ReverseWords("i like you ")
-	fmt.Println(words)
+	//words := leetcode.ReverseWords("i like you ")
+	//fmt.Println(words)
+
+	arr := []int{0, 0, 1, 2, 4, 2, 2, 3, 1, 4}
+	numbers := getOffer.GetLeastNumbers(arr, 4)
+	fmt.Println(numbers)
 }
