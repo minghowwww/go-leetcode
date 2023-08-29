@@ -2,7 +2,7 @@ package main
 
 import (
 	"fmt"
-	"go-leetcode/leetcode/getOffer"
+	"go-leetcode/leetcode"
 )
 
 func main() {
@@ -53,7 +53,16 @@ func main() {
 	//words := leetcode.ReverseWords("i like you ")
 	//fmt.Println(words)
 
-	arr := []int{0, 0, 1, 2, 4, 2, 2, 3, 1, 4}
-	numbers := getOffer.GetLeastNumbers(arr, 4)
-	fmt.Println(numbers)
+	//arr := []int{0, 0, 1, 2, 4, 2, 2, 3, 1, 4}
+	//numbers := getOffer.GetLeastNumbers(arr, 4)
+	//fmt.Println(numbers)
+
+	//arr := [][]int{[]int{9, 3, 6}, []int{8, 1, 7}, []int{6, 6, 8}, []int{8, 4, 9}, []int{4, 2, 9}}
+	//arr := [][]int{{5, 4, 7}, {7, 4, 8}, {4, 1, 8}}
+	//arr := [][]int{{7, 5, 6}, {6, 7, 8}, {10, 1, 6}}
+	//arr := [][]int{{3, 6, 9}, {10, 2, 3}, {1, 6, 8}, {2, 1, 6}, {9, 3, 9}}
+	//arr := [][]int{{10, 5, 7}, {10, 3, 4}, {7, 1, 8}, {6, 3, 4}}
+	arr := [][]int{{2, 2, 7}, {9, 5, 6}, {10, 1, 7}, {3, 3, 6}, {2, 1, 4}}
+	pooling := leetcode.CarPooling(arr, 24)
+	fmt.Println(pooling)
 }
