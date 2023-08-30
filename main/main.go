@@ -66,6 +66,10 @@ func main() {
 	//pooling := leetcode.CarPooling(arr, 24)
 	//fmt.Println(pooling)
 
-	nums := getOffer.SumNums(4)
-	fmt.Println(nums)
+	//nums := getOffer.SumNums(4)
+	//fmt.Println(nums)
+
+	arr := []int{3, 4, 2, 1, 1, 0}
+	number := getOffer.FindRepeatNumber(arr)
+	fmt.Println(number)
 }
