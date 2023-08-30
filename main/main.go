@@ -2,7 +2,7 @@ package main
 
 import (
 	"fmt"
-	"go-leetcode/leetcode"
+	"go-leetcode/leetcode/getOffer"
 )
 
 func main() {
@@ -62,7 +62,10 @@ func main() {
 	//arr := [][]int{{7, 5, 6}, {6, 7, 8}, {10, 1, 6}}
 	//arr := [][]int{{3, 6, 9}, {10, 2, 3}, {1, 6, 8}, {2, 1, 6}, {9, 3, 9}}
 	//arr := [][]int{{10, 5, 7}, {10, 3, 4}, {7, 1, 8}, {6, 3, 4}}
-	arr := [][]int{{2, 2, 7}, {9, 5, 6}, {10, 1, 7}, {3, 3, 6}, {2, 1, 4}}
-	pooling := leetcode.CarPooling(arr, 24)
-	fmt.Println(pooling)
+	//arr := [][]int{{2, 2, 7}, {9, 5, 6}, {10, 1, 7}, {3, 3, 6}, {2, 1, 4}}
+	//pooling := leetcode.CarPooling(arr, 24)
+	//fmt.Println(pooling)
+
+	nums := getOffer.SumNums(4)
+	fmt.Println(nums)
 }
