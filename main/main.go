@@ -87,6 +87,12 @@ func main() {
 	//number := getOffer.FindNumberIn2DArray(arr, 13)
 	//fmt.Println(number)
 
-	words := getOffer.ReverseLeftWords("lrloseumgh", 6)
-	fmt.Println(words)
+	//words := getOffer.ReverseLeftWords("lrloseumgh", 6)
+	//fmt.Println(words)
+
+	//fib := getOffer.Fib(5)
+	//fmt.Println(fib)
+
+	exchange := getOffer.Exchange([]int{1, 2, 3, 4})
+	fmt.Println(exchange)
 }
