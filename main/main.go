@@ -2,7 +2,7 @@ package main
 
 import (
 	"fmt"
-	"go-leetcode/leetcode/getOffer"
+	"go-leetcode/leetcode/hot100"
 )
 
 func main() {
@@ -96,6 +96,9 @@ func main() {
 	//exchange := getOffer.Exchange([]int{1, 2, 3, 4})
 	//fmt.Println(exchange)
 
-	search := getOffer.Search([]int{2, 2}, 2)
-	fmt.Println(search)
+	//search := getOffer.Search([]int{2, 2}, 2)
+	//fmt.Println(search)
+
+	substring := hot100.LengthOfLongestSubstring("tmmzuxt")
+	fmt.Println(substring)
 }
