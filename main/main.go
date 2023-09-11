@@ -93,6 +93,9 @@ func main() {
 	//fib := getOffer.Fib(5)
 	//fmt.Println(fib)
 
-	exchange := getOffer.Exchange([]int{1, 2, 3, 4})
-	fmt.Println(exchange)
+	//exchange := getOffer.Exchange([]int{1, 2, 3, 4})
+	//fmt.Println(exchange)
+
+	search := getOffer.Search([]int{2, 2}, 2)
+	fmt.Println(search)
 }
