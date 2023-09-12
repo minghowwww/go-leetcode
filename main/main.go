@@ -1,5 +1,10 @@
 package main
 
+import (
+	"fmt"
+	"go-leetcode/leetcode/hot100"
+)
+
 func main() {
 	//nums := []int{-1, 0, 3, 5, 9, 12}
 	//target := 9
@@ -97,4 +102,7 @@ func main() {
 	//substring := hot100.LengthOfLongestSubstring("tmmzuxt")
 	//fmt.Println(substring)
 
+	s := "([}}])"
+	valid := hot100.IsValid(s)
+	fmt.Println(valid)
 }
