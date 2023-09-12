@@ -1,10 +1,5 @@
 package main
 
-import (
-	"fmt"
-	"go-leetcode/leetcode/hot100"
-)
-
 func main() {
 	//nums := []int{-1, 0, 3, 5, 9, 12}
 	//target := 9
@@ -99,6 +94,7 @@ func main() {
 	//search := getOffer.Search([]int{2, 2}, 2)
 	//fmt.Println(search)
 
-	substring := hot100.LengthOfLongestSubstring("tmmzuxt")
-	fmt.Println(substring)
+	//substring := hot100.LengthOfLongestSubstring("tmmzuxt")
+	//fmt.Println(substring)
+
 }
