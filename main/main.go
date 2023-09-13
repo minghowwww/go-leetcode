@@ -102,7 +102,10 @@ func main() {
 	//substring := hot100.LengthOfLongestSubstring("tmmzuxt")
 	//fmt.Println(substring)
 
-	s := "([}}])"
-	valid := hot100.IsValid(s)
-	fmt.Println(valid)
+	//s := "([}}])"
+	//valid := hot100.IsValid(s)
+	//fmt.Println(valid)
+
+	palindrome := hot100.LongestPalindrome("babadada")
+	fmt.Println(palindrome)
 }
